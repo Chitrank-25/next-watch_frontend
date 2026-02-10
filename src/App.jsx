@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar';
 import MovieCard from './components/MovieCard';
 import LoadingSpinner from './components/LoadingSpinner';
-import { getRecommendations, healthCheck } from './services/api';
+import { getRecommendations, healthCheck } from './services/Api';
 import './App.css';
 
 function App() {
